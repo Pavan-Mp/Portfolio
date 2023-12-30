@@ -12,6 +12,7 @@ html{
 }
 
 /* custom scroll bar */
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -283,6 +284,10 @@ section .title::after{
 .services .serv-content .card:hover{
     background: crimson;
 }
+   .card:hover .box .text{
+    font-weight: 900;
+    color: #000000;
+}
 .services .serv-content .card .box{
     transition: all 0.3s ease;
 }
@@ -551,6 +556,9 @@ footer span a:hover{
     text-decoration: underline;
 }
 
+.card{
+    margin-bottom: 10px ;
+}
 
 /* responsive media query start */
 @media (max-width: 1104px) {
@@ -678,8 +686,6 @@ footer span a:hover{
         line-height: 38px;
     }
 }
-
-
 
 .fa-github {
     color: rgb(255, 81, 0);
